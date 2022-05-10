@@ -1,0 +1,103 @@
+.icon {
+    color: coral;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.login-button {
+    background: #3630a3;
+    color: white;
+    float: right;
+    margin: -55px auto;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.logout-button {
+    background: red;
+    color: white;
+    float: right;
+    margin: -55px auto;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px;
+    border: none
+}
+
+.headline {
+    font-size: 25px;
+    font-family: verdana, serif;
+    text-align: center;
+}
+
+.green-button {
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px;
+    border: none
+}
+
+.find-all-trip {
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px;
+    border: none
+
+}
+
+.input {
+    width: 45%;
+    border: 2px solid #aaa;
+    border-radius: 7px;
+    padding: 10px;
+
+}
+
+.form-center {
+    text-align: center;
+}
+
+.driver-action-button {
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px;
+    width: 25%;
+    border: none
+}
+
+table {
+    width: 100%;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: left;
+    background-color: #3a6070;
+    color: #FFF;
+}
+
+table td {
+    border: 1px solid #e3e3e3;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #e7edf0;
+}
+

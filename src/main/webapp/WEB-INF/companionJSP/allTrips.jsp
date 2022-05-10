@@ -1,23 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: yurash
-  Date: 30.03.2022
-  Time: 18:26
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
+    <link rel="stylesheet" content="text/css" href="css/stylesheet.css">
     <title>Traveler</title>
 </head>
-<jsp:include page="/WEB-INF/included/header.jsp"/>
+<jsp:include page="/WEB-INF/included/icon.html"/>
 <jsp:include page="/WEB-INF/included/loginButton.jsp"/>
 <body>
-<p style="font-size:25px; font-family:verdana,serif;" align="center">
-    Усі доступні маршрути
-</p>
-<table style="width: 100%" border="1">
+<p class="headline">Усі доступні маршрути</p>
+<table>
     <tr>
         <th>Водій</th>
         <th>Дата</th>
@@ -36,23 +28,4 @@
     </c:forEach>
 </table>
 </body>
-<style>
-    table {
-        border-collapse: collapse;
-    }
-
-    table th {
-        text-align: left;
-        background-color: #3a6070;
-        color: #FFF;
-    }
-
-    table td {
-        border: 1px solid #e3e3e3;
-    }
-
-    table tr:nth-child(odd) td {
-        background-color: #e7edf0;
-    }
-</style>
 </html>
