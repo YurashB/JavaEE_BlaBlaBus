@@ -1,4 +1,4 @@
-# JavaEE_BlaBlaCar
+# JavaEE_BlaBlaBus
 Project for carpulling with JakartaEE.
 
 ## Technologies
